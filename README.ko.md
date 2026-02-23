@@ -53,6 +53,10 @@ claude
 
 ## 🔄 개발 워크플로우
 
+<p align="center">
+  <img src="docs/workflow-pipeline.jpg" alt="개발 워크플로우 파이프라인" width="720">
+</p>
+
 ### 새 기능 개발
 
 계획 수립부터 PR 생성까지 한 번에 진행합니다.
@@ -109,6 +113,10 @@ graph LR
 | 3 | `/security-compliance` | SOC2, GDPR 등 컴플라이언스 검증 |
 
 ### 팀 협업
+
+<p align="center">
+  <img src="docs/agent-teams.jpg" alt="Agent Teams Hub-and-Spoke" width="600">
+</p>
 
 ```
 /orchestrate
@@ -236,6 +244,10 @@ vim ~/.claude/settings.local.json
 ---
 
 ## 🏗 아키텍처
+
+<p align="center">
+  <img src="docs/architecture.jpg" alt="심볼릭 링크 아키텍처" width="720">
+</p>
 
 ```mermaid
 graph TB

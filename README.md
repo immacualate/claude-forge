@@ -54,6 +54,10 @@ claude
 
 ## 🔄 Development Workflows
 
+<p align="center">
+  <img src="docs/workflow-pipeline.jpg" alt="Feature Development Workflow" width="720">
+</p>
+
 Real-world workflows that chain commands, agents, and skills together.
 
 ### Feature Development
@@ -116,6 +120,10 @@ Comprehensive security analysis combining CWE and STRIDE:
 | `/security-compliance` | SOC2, ISO27001, GDPR, HIPAA compliance verification. |
 
 ### Team Collaboration
+
+<p align="center">
+  <img src="docs/agent-teams.jpg" alt="Agent Teams Hub-and-Spoke" width="600">
+</p>
 
 Parallel multi-agent execution for complex tasks:
 
@@ -212,6 +220,10 @@ vim ~/.claude/settings.local.json
 ---
 
 ## 🏗 Architecture
+
+<p align="center">
+  <img src="docs/architecture.jpg" alt="Symlink Architecture" width="720">
+</p>
 
 ```mermaid
 graph TB
