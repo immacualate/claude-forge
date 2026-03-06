@@ -55,13 +55,24 @@ claude
 
 > If you find Claude Forge useful, please consider giving it a [star](https://github.com/sangrokjung/claude-forge/stargazers) -- it helps others discover this project.
 
-### What's New in v2.1
+### What's New in v2.2
+
+| Change | Description |
+|:-------|:------------|
+| **Surgical Changes Principle** | New 12th golden principle: only change what was requested. No drive-by refactoring, style drift, or adjacent "improvements". Inspired by [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876) on LLM coding pitfalls. |
+| **State Assumptions Before Coding** | New interaction rule: surface assumptions and present alternatives before implementing ambiguous requirements -- don't guess silently. |
+| **Anti-Rationalization Expansion** | Two new entries block common LLM excuses: "while I'm here, let me clean up" and "need abstraction for extensibility". |
+
+<details>
+<summary><strong>v2.1 Changes</strong></summary>
 
 | Change | Description |
 |:-------|:------------|
 | **Verification Rules** | New `verification.md` rule enforces evidence-based completion -- no claims without fresh test/build output. |
 | **Agent Self-Evolution** | Core 5 agents (planner, architect, code-reviewer, security-reviewer, tdd-guide) now record learnings in `~/.claude/agent-memory/` after each task. |
 | **Hook Sync** | Added `forge-update-check.sh` (session start update notification) and `observe.sh` (continuous learning observation). |
+
+</details>
 
 ### New here?
 

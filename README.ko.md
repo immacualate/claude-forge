@@ -52,13 +52,24 @@ claude
 
 이것으로 끝. 모든 에이전트, 커맨드, 훅, 규칙이 즉시 사용 가능합니다.
 
-### v2.1 업데이트
+### v2.2 업데이트
+
+| 변경 | 설명 |
+|:-----|:-----|
+| **수술적 변경 원칙** | 12번째 Golden Principle 추가: 요청받은 것만 변경. 인접 코드 "개선", 스타일 변경, 관련 없는 리팩토링 금지. [Andrej Karpathy의 LLM 코딩 실수 관찰](https://x.com/karpathy/status/2015883857489522876)에서 영감. |
+| **코딩 전 가정 명시** | 새 interaction 규칙: 모호한 요구사항은 조용히 가정하지 말고, 가정을 명시하고 대안을 제시한 후 구현. |
+| **합리화 방지 확장** | "이왕 고치는 김에 정리도", "확장성을 위해 추상화 필요" 등 LLM의 흔한 변명 2개 추가 차단. |
+
+<details>
+<summary><strong>v2.1 변경사항</strong></summary>
 
 | 변경 | 설명 |
 |:-----|:-----|
 | **검증 규칙 추가** | 새 `verification.md` 규칙이 증거 기반 완료를 강제합니다 -- 테스트/빌드 실행 결과 없이 완료 선언 금지. |
 | **에이전트 자기 진화** | 핵심 5개 에이전트(planner, architect, code-reviewer, security-reviewer, tdd-guide)가 작업 후 `~/.claude/agent-memory/`에 학습 내용을 기록합니다. |
 | **훅 동기화** | `forge-update-check.sh` (세션 시작 시 업데이트 알림)와 `observe.sh` (지속 학습 관찰) 추가. |
+
+</details>
 
 ### 처음이신가요?
 

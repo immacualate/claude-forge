@@ -1,6 +1,6 @@
 # Golden Principles
 
-> 11 core principles for writing clean, maintainable code.
+> 12 core principles for writing clean, maintainable code.
 
 ## 1. Immutability
 
